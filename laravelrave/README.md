@@ -1,3 +1,6 @@
+<h2 style="text-align: center;">Rave by Flutterwave for Laravel</h2>
+
+
 * Getting started
   * [Installation](gettingstarted/installation.md)
   * [Sample Implementatin](gettingstarted/sample-implementation.md)

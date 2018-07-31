@@ -62,3 +62,4 @@ public function createPaymentPlan()
     <input type="submit" value="Buy"  />
 </form>
 ```
+[View available methods](recurring/methods.md)

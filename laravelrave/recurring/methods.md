@@ -1,3 +1,4 @@
+
 # Payment Plans
 
 ## Introduction
@@ -65,6 +66,8 @@ returns Object
 This fetches all payment plans
 
 returns Object
+
+<br><br><br>
 
 # Subscriptions
 
@@ -149,4 +152,4 @@ Route::get('/paymentplans', 'RaveController@fetchPaymentPlan')->name('fetchPayme
 
     dd($data);
   }
-``` -->
+``` 
