@@ -5,7 +5,7 @@ module.exports = {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Installation', link: '/getting-started/installation.html' },
-          { text: 'Sample Implementation', link: '/getting-started/payment-implementation.html' },
+          { text: 'Payment Implementation', link: '/getting-started/payment-implementation.html' },
         ],
         sidebar: [
             '/getting-started/installation.html',
