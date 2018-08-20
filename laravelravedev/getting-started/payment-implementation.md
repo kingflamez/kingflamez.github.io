@@ -1,4 +1,4 @@
-# Sample implementation
+# Payment Implementation
 
 In this implementation, we are expecting a form encoded POST request to this script.
 The request will contain the following parameters.
@@ -17,14 +17,14 @@ The request will contain the following parameters.
 - ref `Your transaction reference. It must be unique per transaction.  By default, the Rave class generates a unique transaction reference for each transaction. Pass this parameter only if you uncommented the related section in the script below.`
 
 
-### 1. Setup Routes
+## 1. Setup Routes
 
 ```php
 Route::post('/pay', 'RaveController@initialize')->name('pay');
 Route::post('/rave/callback', 'RaveController@callback')->name('callback');
 ```
 
-### 2. Grant CSRF Access to Rave Callback
+## 2. Grant CSRF Access to Rave Callback
 Go to `app/Http/Middleware/VerifyCsrfToken.php` and add your callback url to the `$except` array
 
 ```php
@@ -60,11 +60,11 @@ $array = array(array('metaname' => 'color', 'metavalue' => 'blue'),
 </form>
 ```
 
-### 3. Setup your Controller
+## 3. Setup your Controller
 > Setup your controller to handle the routes. I created the `RaveController`. Use the `Rave`
 facade. 
 
-#### Example
+### Example
 
 ```php
 <?php
