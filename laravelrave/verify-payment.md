@@ -18,6 +18,9 @@ Below are the important things to check for when validating the payment:
 
 * Most importantly validate the `amount paid` to be equal to or at least greater than the amount of the value to be given.
 
+
+## Sample Implementation
+
 Below is sample code of how to implement validation
 
 ### Setup your Controller
