@@ -5,7 +5,10 @@ Rave helps you collect payments recurrently from your customers using a payment 
 
 When you have created a payment plan you can subscribe a customer to it by simply passing the plan ID in your form value to charge the customers card.
 
-> Payment Plans require [webhook url](/webhooks.html)
+::: warning
+Payment Plans require [webhook url](/webhooks.html)
+:::
+
 
 #### eg
 
