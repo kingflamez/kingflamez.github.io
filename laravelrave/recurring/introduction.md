@@ -1,9 +1,11 @@
-# Recurring Plans
+# Recurring Payments
 
 ## Introduction
 Rave helps you collect payments recurrently from your customers using a payment plan. Payment plans allow you create a subscription for your customers.
 
 When you have created a payment plan you can subscribe a customer to it by simply passing the plan ID in your form value to charge the customers card.
+
+> Payment Plans require [webhook url](/webhooks.html)
 
 #### eg
 
@@ -78,9 +80,9 @@ public function createPaymentPlan()
 </form>
 ```
 
-## Methods
+## Payment Plan Methods
 
-> These methods creates payment plans which can be used in the form, list all plans, fetches a single plan, cancel a plan and edits a plan.
+These methods creates payment plans which can be used in the form, list all plans, fetches a single plan, cancel a plan and edits a plan.
 
 ### 1. Rave::createPaymentPlan()
 
@@ -125,12 +127,9 @@ returns Object
 
 <br><br><br>
 
-# Subscriptions
+## Subscription Methods
 
-> These provide methods to list all subscriptions, fetching a subscription, cancelling a subscription and activating a subscription.
-
-
-## Methods
+ These provide methods to list all subscriptions, fetching a subscription, cancelling a subscription and activating a subscription.
 
 ### 1. Rave::listSubscriptions()
    

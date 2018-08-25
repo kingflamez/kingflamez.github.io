@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Rave by Flutterwave Laravel Package',
-    description: 'A rave laravel package to accepts payment globally in multi currencies',
+    title: 'Laravel Rave',
+    description: 'A rave by flutterwave laravel package to accept payment globally in multi currencies',
     themeConfig: {
         nav: [
           { text: 'Home', link: '/' },
@@ -10,7 +10,9 @@ module.exports = {
         sidebar: [
             '/getting-started/installation.html',
             '/getting-started/payment-implementation.html',
-            '/recurring/introduction.html'
+            '/recurring/introduction.html',
+            '/webhooks.html',
+            '/verify-payment.html'
         ],
         displayAllHeaders: true
       }
