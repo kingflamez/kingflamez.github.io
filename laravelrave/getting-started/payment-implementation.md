@@ -4,6 +4,7 @@ In this implementation, we are expecting a form encoded POST request to this scr
 The request will contain the following parameters.
 
 - payment_method `Can be card, account, both`
+- amount `Amount to be payed`
 - description `Your transaction description`
 - logo `Your logo url`
 - title `Your transaction title`
