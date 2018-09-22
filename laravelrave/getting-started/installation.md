@@ -65,7 +65,7 @@ RAVE_SECRET_HASH='My_lovelysite123'
 
 * **RAVE_TITLE -** This is the title of the modal (optional)
 
-* **RAVE_ENVIRONMENT -** This can be `staging` or `live`. Staging API keys can be gotten [here](https://ravesandbox.flutterwave.com/dashboard/settings/apis) while live API keys can be gotten [here](https://raves.flutterwave.com/dashboard/settings/apis)   (compulsory)
+* **RAVE_ENVIRONMENT -** This can be `staging` or `live`. Staging API keys can be gotten [here](https://ravesandbox.flutterwave.com/dashboard/settings/apis) while live API keys can be gotten [here](https://rave.flutterwave.com/dashboard/settings/apis)   (compulsory)
 
 * **RAVE_LOGO -** This is a custom logo that will be displayed on the modal  (optional)
 
