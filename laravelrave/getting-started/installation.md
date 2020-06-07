@@ -72,3 +72,9 @@ RAVE_SECRET_HASH='My_lovelysite123'
 * **RAVE_PREFIX -** This is a the prefix added to your transaction reference generated for you  (optional)
 
 * **SECRET_HASH -** This is the secret hash for your webhook, this is necessary if you are setting up a recurrent payment
+
+Remember to exempt your callback and webhook routes from the use of csrf. You can add this in app/Http/VerifyCsrfToken.php of your laravel project.
+```protected $except = [ 'rave/callback', 'rave/receive', ];```
+
+Please note that the route for the callback function is GET request like so 
+```Route::get('/rave/callback', 'RaveController@callback')->name('callback');```
